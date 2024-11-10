@@ -1,0 +1,1 @@
+(function($){'use strict';var deliverydaterange=wcrp_settings.gaptime;var date_format=wcrp_settings.dateFormat;jQuery(function($){$('#wcrp_user_delivery_date').datepicker({dateFormat:date_format,minDate:deliverydaterange,maxDate:365});$('#wcrp_admin_delivery_date').datepicker({dateFormat:date_format,minDate:deliverydaterange,maxDate:365});});}(jQuery));
